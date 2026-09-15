@@ -9,6 +9,7 @@
 <meta name="description" content="FaithfulLee - Faithful in His love, grounded in purpose.">
 
 <style>
+
 :root{
     --bg:#f8f5ef;
     --bg2:#f3e6da;
@@ -16,6 +17,7 @@
     --peach:#f3c9af;
     --brown:#5c4635;
     --text:#4f453c;
+
     --glass:rgba(255,255,255,0.75);
     --border:rgba(122,133,96,0.18);
     --shadow:0 25px 70px rgba(92,70,53,0.15);
@@ -30,6 +32,7 @@
 
 body{
     min-height:100vh;
+
     font-family:"Segoe UI", Arial, sans-serif;
     color:var(--text);
 
@@ -47,48 +50,46 @@ body{
 
 .card{
     width:100%;
-    max-width:1000px;
-
-    text-align:center;
+    max-width:900px;
 
     background:var(--glass);
-
     backdrop-filter:blur(18px);
 
     border:1px solid var(--border);
-
     border-radius:var(--radius);
 
     box-shadow:var(--shadow);
 
     padding:60px 40px;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
 }
 
 .logo{
-    width:min(700px,95%);
+    width:min(650px,95%);
     height:auto;
     display:block;
-    margin:0 auto 20px auto;
+    margin-bottom:20px;
 }
 
 h1{
     color:var(--brown);
     font-size:clamp(2.5rem,5vw,4.5rem);
     letter-spacing:4px;
-    margin-bottom:20px;
-}
-
-.subtitle{
-    color:var(--sage);
-    font-size:1.3rem;
     margin-bottom:25px;
 }
 
 .divider{
     width:140px;
     height:4px;
-    margin:0 auto 30px auto;
+
+    margin-bottom:30px;
+
     border-radius:999px;
+
     background:linear-gradient(
         90deg,
         var(--sage),
@@ -98,30 +99,36 @@ h1{
 
 .description{
     max-width:650px;
-    margin:0 auto;
-    font-size:1.05rem;
+
+    font-size:1.15rem;
     line-height:1.8;
+
+    color:var(--text);
 }
 
 .footer{
     margin-top:40px;
+
     color:var(--sage);
-    font-size:.95rem;
+
+    font-size:0.95rem;
 }
 
 @media(max-width:768px){
+
     .card{
         padding:35px 20px;
-    }
-
-    .subtitle{
-        font-size:1.1rem;
     }
 
     .description{
         font-size:1rem;
     }
+
+    h1{
+        letter-spacing:2px;
+    }
 }
+
 </style>
 </head>
 
@@ -136,12 +143,10 @@ h1{
 
     <h1>COMING SOON</h1>
 
-    <p class="subtitle">
-      ider"></div>
+    <div class="divider"></div>
 
     <p class="description">
-        FaithfulLee is preparing a beautiful collection designed to inspire,
-        encourage and celebrate a life grounded in faith, hope and purpose.
+        FaithfulLee is preparing a beautiful collection faith, hope and purpose.
         We look forward to sharing our journey with you very soon.
     </p>
 
