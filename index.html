@@ -1,1 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>FaithfulLee | Coming Soon</title>
+
+<meta name="description" content="FaithfulLee - Faithful in His love, grounded in purpose. Coming soon.">
+<meta name="theme-color" content="#7A8560">
+
+<style>
+
+:root{
+    --bg:#f8f5ef;
+    --bg2:#f3e6da;
+
+    --sage:#7A8560;
+    --sage-light:#aab58b;
+
+    --peach:#f3c9af;
+    --brown:#5c4635;
+
+    --text:#4f453c;
+
+    --glass:rgba(255,255,255,0.45);
+
+    --border:rgba(122,133,96,0.18);
+
+    --shadow:0 25px 70px rgba(92,70,53,0.15);
+
+    --radius:30px;
+}
+
+*{
+    box-sizing:border-box;
+}
+
+html{
+    height:100%;
+}
+
+body{
+    margin:0;
+    min-height:100vh;
+
+    font-family:"Segoe UI", Arial, sans-serif;
+    color:var(--text);
+
+    background:
+        radial-gradient(
+            circle at 15% 10%,
+            rgba(243,201,175,0.40),
+            transparent 28%
+        ),
+        radial-gradient(
+            circle at 85% 10%,
+            rgba(170,181,139,0.35),
+            transparent 25%
+        ),
+        linear-gradient(
+            180deg,
+            var(--bg) 0%,
+            var(--bg2) 100%
+        );
+
+    overflow-x:hidden;
+}
+
+.hero{
+    min-height:100vh;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    padding:40px 20px;
+}
+
+.card{
+
+    width:100%;
+    max-width:900px;
+
+    text-align:center;
+
+    background:var(--glass);
+
+    backdrop-filter:blur(18px);
+
+    border:1px solid var(--border);
+
+    border-radius:var(--radius);
+
+    box-shadow:var(--shadow);
+
+    padding:60px 40px;
+}
+
+.logo{
+    width:min(430px, 90%);
+    height:auto;
+    margin-bottom:20px;
+}
+
+.badge{
+
+    display:inline-block;
+
+    padding:10px 18px;
+
+    border-radius:999px;
+
+    background:rgba(122,133,96,0.10);
+
+    border:1px solid rgba(122,133,96,0.20);
+
+    color:var(--sage);
+
+    font-size:0.95rem;
+
+    margin-bottom:24px;
+}
+
+h1{
+    margin:0;
+
+    color:var(--brown);
+
+    font-size:clamp(3rem, 7vw, 6rem);
+
+    letter-spacing:6px;
+
+    font-weight:700;
+}
+
+.subtitle{
+
+    margin-top:18px;
+
+    color:var(--sage);
+
+    font-size:1.5rem;
+
+    font-weight:300;
+}
+
+.description{
+
+    max-width:700px;
+
+    margin:30px auto 0;
+
+    font-size:1.1rem;
+
+    line-height:1.8;
+}
+
+.divider{
+
+    width:120px;
+    height:4px;
+
+    background:linear-gradient(
+        90deg,
+        var(--sage),
+        var(--peach)
+    );
+
+    margin:35px auto;
+
+    border-radius:50px;
+}
+
+.footer{
+
+    margin-top:40px;
+
+    font-size:0.95rem;
+
+    color:var(--sage);
+}
+
+.footer a{
+    color:var(--brown);
+    text-decoration:none;
+}
+
+.footer a:hover{
+    text-decoration:underline;
+}
+
+@media(max-width:768px){
+
+    .card{
+        padding:40px 25px;
+    }
+
+    .subtitle{
+        font-size:1.2rem;
+    }
+
+    .description{
+        font-size:1rem;
+    }
+
+    h1{
+        letter-spacing:3px;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+
+    <div class="card">
+
+        logo.png
+
+        <div class="badge">
+            Faithful in His love, grounded in purpose
+        </div>
+
+        <h1>COMING SOON</h1>
+
+        <p class="
